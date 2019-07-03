@@ -3,7 +3,7 @@
 import os
 
 def main():
-  cmd = "ls"
+  cmd = "/usr/local/hadoop/bin/hdfs dfs -ls /"
   os.system(cmd)
 
 if __name__ == "__main__":
